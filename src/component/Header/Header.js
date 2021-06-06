@@ -16,6 +16,7 @@ export const styles = () => ({
   },
   logo:{
     width:"30px",
+    height:"30px",
     padding:"5px"
   },
 });

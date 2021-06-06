@@ -7,7 +7,10 @@ The application has been scaffolded using Gatsby. It has jest as testing framewo
 To run your starter project run the following
 
 ```bash
+npm i
+
 npm run develop
+
 ```
 
 You'll then be able to access it on `localhost:8000`
@@ -15,7 +18,12 @@ You'll then be able to access it on `localhost:8000`
 To build the application need to run following command.
 
 ```bash
-npm run build
 
-public folder can be deployed to aws s3 or any other file based server. 
+npm run build:pp
+
+Build from production env
+
+public folder can be deployed to aws s3 or any other file based server.
+
+
 ```
