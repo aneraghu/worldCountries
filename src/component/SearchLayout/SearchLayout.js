@@ -4,7 +4,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import InfoIcon from '@material-ui/icons/Info';
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-
+import { debounce } from "../../common/utils/fun-utils"
 // styles
 export const styles = () => ({
   country: {
@@ -111,7 +111,7 @@ const handleChange=(e)=>{
                 type="search"
                 placeholder={placeholder}
                 name={id}
-                onChange={handleChange}
+                onChange={debounce(handleChange,500)}
               />
             </form>
               <div className={classes.countrieslist}>
