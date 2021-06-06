@@ -9,12 +9,12 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "dev": "GATSBY_ACTIVE_ENV=development npm run develop",
-    "prod": "GATSBY_ACTIVE_ENV=production npm run develop",
+    "dev": "npm run develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "build:pp":"gatsby build --prefix-paths"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",

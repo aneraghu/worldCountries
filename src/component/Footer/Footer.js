@@ -21,7 +21,7 @@ const Layout = () => {
   const classes = useStyles();
   return(
       <footer className={classes.footer}>
-        <Typography variant="h8" className={classes.title}>
+        <Typography variant="subtitle2" className={classes.title}>
             Copyright @2021
         </Typography>
       </footer>

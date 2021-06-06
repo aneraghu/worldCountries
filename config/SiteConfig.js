@@ -3,8 +3,8 @@ const config = {
   siteTitleShort: "Countries List", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Countries List", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://localhost:8000/", // Domain of your website without pathPrefix.
-  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
+  siteUrl: "https://thedigitalapps.com/world-countries-listing/", // Domain of your website without pathPrefix.
+  pathPrefix: "/world-countries-listing/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "counties list to be displayed with sort name", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   dateFormat: "DD/MM/YYYY", // Date format for display.

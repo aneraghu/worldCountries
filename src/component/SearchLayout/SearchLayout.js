@@ -121,12 +121,15 @@ const handleChange=(e)=>{
                       <div>
                         <span className={classes.item}>{each.emoji}</span>
                         <span className={classes.item}>{each?.name}</span>
+                        { arrowBtn?
                         <span className={`${classes.item} ${classes.iso2}`}>{each?.iso2 || each?.state_code}</span>
+                        :null
+                      }
                       </div>
                       <div className={classes.iconholder}>
                         <span className={`${classes.item} ${classes.info}`}><InfoIcon/></span>
                         { arrowBtn?
-                          <span className={`${classes.item} ${classes.next}`} onClick={()=>makeSelection(each?.id)}><ArrowForwardOutlinedIcon /></span>
+                          <span className={`${classes.item} ${classes.next}`} onClick={()=>makeSelection(each?.id)} onKeyDown={()=>makeSelection(each?.id)}><ArrowForwardOutlinedIcon /></span>
                           :null
                         }
                       </div>
