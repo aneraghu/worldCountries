@@ -2,20 +2,20 @@ It is a single-page application that allows a user to view and search countries,
 states and cities. The list of states is based on the currently selected country and the list of cities
 is based on the currently selected state..
 
-The application has been scaffolded using Gatsby. It has jest as testing framework.
+The application has been scaffolded using Gatsby.
 
-To run your starter project run the following
+To run your starter project need to execute the following
 
 ```bash
 npm i
 
-npm run develop
+npm run dev
 
 ```
 
 You'll then be able to access it on `localhost:8000`
 
-To build the application need to run following command.
+To build the application need to run following command. but before that you need to change SiteConfig pathprefix and site url. also need to configure .env.production.
 
 ```bash
 
