@@ -1,6 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
+import { copyright } from "../../../config/SiteConfig"
 // styles
 export const styles = () => ({
   title: {
@@ -17,15 +18,15 @@ export const styles = () => ({
   },
 });
 const useStyles = makeStyles(styles);
-const Layout = () => {
+const Footer = () => {
   const classes = useStyles();
   return(
       <footer className={classes.footer}>
         <Typography variant="subtitle2" className={classes.title}>
-            Copyright @2021
+            { copyright }
         </Typography>
       </footer>
 );
 }
 
-export default Layout;
+export default Footer;
