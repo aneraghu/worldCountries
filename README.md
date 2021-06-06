@@ -15,7 +15,7 @@ npm run dev
 
 You'll then be able to access it on `localhost:8000`
 
-To build the application need to run following command. but before that you need to change SiteConfig pathprefix and site url. also need to configure .env.production.
+To build the application need to run following command but before that you need to change SiteConfig, pathprefix and site url. Also need to configure .env.production.
 
 ```bash
 
